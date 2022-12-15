@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+form{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 2rem 0;
+
+}
+
+.form_item{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.form_item input{
+    font-size: 20px;
+    padding: 0.5rem;
+}
+
+.form_item label{
+    font-size: 20px;
+    font-weight: 500;
+}
+.form_item button{
+    border: none;
+    padding: 0.7rem 1.5rem;
+    color: rgb(252, 115, 138);
+    background-color: pink;
+    font-size: 20px;
+    font-weight: 600;
+
+}
